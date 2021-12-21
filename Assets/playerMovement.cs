@@ -1,10 +1,15 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
     public float speed;
+    public float maxSpeed = 10;
+    public float acceleration = 2;
+
+
+
     public float jumpForce;
     private float moveInput;
     public int extraJumps;
@@ -35,7 +40,7 @@ public class playerMovement : MonoBehaviour
 
         moveInput = Input.GetAxis("Horizontal");
         Debug.Log(moveInput);
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        rb.velocity = new Vector2(moveInput * (maxSpeed * acceleration), rb.velocity.y);
 
         if(facingRight == false && moveInput > 0)
         {
