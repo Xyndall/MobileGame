@@ -14,6 +14,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float _groundlinearDrag;
     private float _horizontalDirection;
     private bool _changeDirection => (_rb.velocity.x > 0f && _horizontalDirection < 0f) || (_rb.velocity.x < 0f && _horizontalDirection > 0f);
+    private bool facingRight = true;
 
     [Header("Jump variables")]
     [SerializeField] private float _jumpForce = 12f;
@@ -65,6 +66,15 @@ public class CharacterMovement : MonoBehaviour
             _hangTimeCounter -= Time.deltaTime;
         }
         if (_canCornerCorrect) CornerCorrect(_rb.velocity.y);
+
+        if (facingRight == false && _horizontalDirection > 0)
+        {
+            Flip();
+        }
+        else if (facingRight == true && _horizontalDirection < 0)
+        {
+            Flip();
+        }
     }
 
     void Update()
@@ -72,6 +82,14 @@ public class CharacterMovement : MonoBehaviour
         _horizontalDirection = GetInput().x;
         if (_canJump) Jump();
         
+    }
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 Scaler = transform.localScale;
+        Scaler.x *= -1;
+        transform.localScale = Scaler;
     }
 
     private void CharacterMove()
@@ -84,10 +102,12 @@ public class CharacterMovement : MonoBehaviour
         if(Mathf.Abs(_horizontalDirection) < 0.4f || _changeDirection)
         {
             _rb.drag = _groundlinearDrag;
+            
         }
         else
         {
             _rb.drag = 0;
+
         }
     }
 
