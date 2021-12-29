@@ -7,16 +7,16 @@ TextureImporter:
     second: Spawn
   - first:
       213: 1939232912657830565
-    second: tileMap1 1_1
+    second: Floor
   - first:
       213: 2381226899494202993
-    second: tileMap1 1_2
+    second: Floor2
   - first:
       213: 1376788629550779881
-    second: tileMap1 1_3
+    second: Full2
   - first:
       213: 8654413220974297446
-    second: tileMap1 1_4
+    second: Full
   - first:
       213: -9050549309626389219
     second: tileMap1 1_5
@@ -350,7 +350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileMap1 1_1
+      name: Floor
       rect:
         serializedVersion: 2
         x: 64
@@ -371,7 +371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileMap1 1_2
+      name: Floor2
       rect:
         serializedVersion: 2
         x: 128
@@ -392,7 +392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileMap1 1_3
+      name: Full2
       rect:
         serializedVersion: 2
         x: 0
@@ -413,7 +413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileMap1 1_4
+      name: Full
       rect:
         serializedVersion: 2
         x: 64
