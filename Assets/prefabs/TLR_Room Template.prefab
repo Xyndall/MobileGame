@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1125462225281751546
+--- !u!1 &1457113727791796703
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8632516223312605358}
-  - component: {fileID: 6644274321427670015}
+  - component: {fileID: 4877946721471384509}
+  - component: {fileID: 4998539852034016453}
   m_Layer: 0
-  m_Name: SpawnPointFloor
+  m_Name: TLR_Room Template
   m_TagString: Untagged
-  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8632516223312605358
+--- !u!4 &4877946721471384509
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125462225281751546}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 1457113727791796703}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6644274321427670015
+--- !u!114 &4998539852034016453
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125462225281751546}
+  m_GameObject: {fileID: 1457113727791796703}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d334c91e4d640e4f9e888bc8dade9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _objects:
-  - {fileID: 1820760968956716407, guid: 08db3707bcf585441ac7d9def7dd090f, type: 3}
-  - {fileID: 1820760968956716407, guid: 2ea9c85ba2d4b914188b6bcb925b7ecd, type: 3}
+  - {fileID: 6625752475227069664, guid: dd7ed7486a904714892408a8787e21ca, type: 3}
+  - {fileID: 6625752475227069664, guid: 22b84e7b4806f3043b7a8bec94d41d8a, type: 3}

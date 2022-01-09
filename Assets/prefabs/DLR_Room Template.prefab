@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1125462225281751546
+--- !u!1 &1832059737813309453
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8632516223312605358}
-  - component: {fileID: 6644274321427670015}
+  - component: {fileID: 5685107447385883247}
+  - component: {fileID: 5190992495765835031}
   m_Layer: 0
-  m_Name: SpawnPointFloor
+  m_Name: DLR_Room Template
   m_TagString: Untagged
-  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8632516223312605358
+--- !u!4 &5685107447385883247
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125462225281751546}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 1832059737813309453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6644274321427670015
+--- !u!114 &5190992495765835031
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125462225281751546}
+  m_GameObject: {fileID: 1832059737813309453}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d334c91e4d640e4f9e888bc8dade9a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _objects:
-  - {fileID: 1820760968956716407, guid: 08db3707bcf585441ac7d9def7dd090f, type: 3}
-  - {fileID: 1820760968956716407, guid: 2ea9c85ba2d4b914188b6bcb925b7ecd, type: 3}
+  - {fileID: 115497082144379332, guid: 53a62bc9b1da2fd4da627c8fc68a0c29, type: 3}
+  - {fileID: 115497082144379332, guid: 44f66699157b20e48b37690467499704, type: 3}

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LevelGeneration : MonoBehaviour
 {
+    public GameObject characterSpawn;
+
 
     [Header("RoomGeneration")]
     public Transform[] _startingPositions;
@@ -18,9 +20,13 @@ public class LevelGeneration : MonoBehaviour
     public float _minX;
     public float _maxX;
     public float _minY;
-    private bool _stopGenertaiion = false;
+    public bool _stopGenertaiion = false;
 
     public LayerMask RoomType;
+
+    private int _downCounter;
+
+    Vector3 charPos;
 
     private void Start()
     {
@@ -28,12 +34,23 @@ public class LevelGeneration : MonoBehaviour
         transform.position = _startingPositions[randStartingpos].position;
         Instantiate(_rooms[Random.Range(0, _rooms.Length)], transform.position, Quaternion.identity);
 
+        charPos = transform.position;
+        StartCoroutine(Spawn());
+
         _direction = Random.Range(1, 6);
 
     }
 
+
+    IEnumerator Spawn()
+    {
+        yield return new WaitForSeconds(2);
+        Instantiate(characterSpawn, charPos, Quaternion.identity);
+    }
+
     private void Update()
     {
+        
         if (_timeBtwRoom <= 0 && _stopGenertaiion == false)
         {
             Move();
@@ -50,9 +67,11 @@ public class LevelGeneration : MonoBehaviour
     {
         if(_direction == 1 || _direction == 2)// move Right
         {
+            
 
-            if(transform.position.x < _maxX) 
+            if (transform.position.x < _maxX) 
             {
+                _downCounter = 0;
                 Vector2 newPos = new Vector2(transform.position.x + _moveAmount, transform.position.y);
                 transform.position = newPos;
 
@@ -72,15 +91,18 @@ public class LevelGeneration : MonoBehaviour
                 }
             }
             else
-            {
+            {  // forces the room generation to go down
                 _direction = 5;
             }
 
 
         }else if(_direction == 3 || _direction == 4) // move left
         {
+            
+
             if(transform.position.x > _minX)
             {
+                _downCounter = 0;
                 Vector2 newPos = new Vector2(transform.position.x - _moveAmount, transform.position.y);
                 transform.position = newPos;
 
@@ -96,21 +118,35 @@ public class LevelGeneration : MonoBehaviour
                 _direction = 5;
             }
 
-        }else if(_direction == 5)
+        }else if(_direction == 5) // move down
         {
-            if(transform.position.y > _minY)
+            
+            _downCounter++;
+            Debug.Log(_downCounter + "");
+            if (transform.position.y > _minY)
             {
                 Collider2D roomDetection = Physics2D.OverlapCircle(transform.position, 1, RoomType);
                 if(roomDetection.GetComponent<RoomType>()._type != 1 && roomDetection.GetComponent<RoomType>()._type != 3)
                 {
-                    roomDetection.GetComponent<RoomType>().RoomDestruction();
 
-                    int randBottomRoom = Random.Range(1, 4);
-                    if(randBottomRoom == 2)
+                    if (_downCounter >= 2) //if moves down twice in a row makes it so the second room will have all 4 openings TLDR
                     {
-                        randBottomRoom = 1;
+                        roomDetection.GetComponent<RoomType>().RoomDestruction();
+                        Instantiate(_rooms[3], transform.position, Quaternion.identity);
                     }
-                    Instantiate(_rooms[randBottomRoom], transform.position, Quaternion.identity);
+                    else
+                    {
+                        roomDetection.GetComponent<RoomType>().RoomDestruction();
+
+                        int randBottomRoom = Random.Range(1, 4);
+                        if (randBottomRoom == 2)
+                        {
+                            randBottomRoom = 1;
+                        }
+                        Instantiate(_rooms[randBottomRoom], transform.position, Quaternion.identity);
+                    }
+
+                    
                 }
 
                 Vector2 newPos = new Vector2(transform.position.x, transform.position.y - _moveAmount);
@@ -123,7 +159,7 @@ public class LevelGeneration : MonoBehaviour
                 
             }
             else
-            {
+            {   // stops the level generation
                 _stopGenertaiion = true;
             }
 
