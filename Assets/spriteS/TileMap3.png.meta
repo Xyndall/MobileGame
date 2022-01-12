@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: 0e8033babea46a64da28b7fd1263368d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1400625492866471944
+    second: PortalBase
+  - first:
+      213: -6631607292366397049
+    second: TileMap3_1
+  - first:
+      213: 3868183326501921228
+    second: TileMap3_2
+  - first:
+      213: 3660588619070608619
+    second: Portal3
+  - first:
+      213: 830107470754496782
+    second: LSideTile
+  - first:
+      213: -2792350633577383920
+    second: RSideTile
+  - first:
+      213: -2588813148724417388
+    second: BSideTile1
+  - first:
+      213: 6004331155204211458
+    second: BSideTile2
+  - first:
+      213: 3499516932451068609
+    second: SpikeIron
+  - first:
+      213: 5243847004202142195
+    second: SpikeWood
+  - first:
+      213: 4412921467589311696
+    second: Portal2
+  - first:
+      213: 1298359327632273088
+    second: Portal1
+  - first:
+      213: -8199628650757030151
+    second: TileMap3_12
+  - first:
+      213: 2888484147796619282
+    second: TileMap3_13
+  - first:
+      213: 4044095731427958669
+    second: TileMap3_14
+  - first:
+      213: -5393698106868345909
+    second: TileMap3_15
+  - first:
+      213: -8834935891538842929
+    second: TileMap3_16
+  - first:
+      213: -5689332032007465831
+    second: TileMap3_17
+  - first:
+      213: -3812073328245258815
+    second: TileMap3_18
+  - first:
+      213: -3988644508836904736
+    second: TileMap3_19
+  - first:
+      213: 7181151620566551824
+    second: TileMap3_20
+  - first:
+      213: 4983562504539980917
+    second: TileMap3_21
+  - first:
+      213: 8402840208237750807
+    second: TileMap3_22
+  - first:
+      213: -6752780727531887094
+    second: TileMap3_23
+  - first:
+      213: -6405864380032853479
+    second: TileMap3_24
+  - first:
+      213: -7660685153461590741
+    second: TileMap3_25
+  - first:
+      213: -4809026719886053255
+    second: TileMap3_26
+  - first:
+      213: 3008138344293809065
+    second: TileMap3_27
+  - first:
+      213: -7118192171583275366
+    second: TileMap3_28
+  - first:
+      213: 8480516967898170002
+    second: TileMap3_29
+  - first:
+      213: -4565400988122130548
+    second: TileMap3_30
+  - first:
+      213: -6019525834998752734
+    second: TileMap3_31
+  - first:
+      213: -8886120819305827427
+    second: TileMap3_32
+  - first:
+      213: 523862581054595494
+    second: TileMap3_33
+  - first:
+      213: 3951733020950717348
+    second: TileMap3_34
+  - first:
+      213: -9137988125356349123
+    second: TileMap3_35
+  - first:
+      213: 730190481713500241
+    second: TileMap3_36
+  - first:
+      213: 7546637084794110606
+    second: TileMap3_37
+  - first:
+      213: 7195323838641781029
+    second: TileMap3_38
+  - first:
+      213: 1139498471297883269
+    second: TileMap3_39
+  - first:
+      213: -6526417119460694734
+    second: TileMap3_40
+  - first:
+      213: -7527352534030924321
+    second: TileMap3_41
+  - first:
+      213: -352715563245260354
+    second: TileMap3_42
+  - first:
+      213: 3284807745865584001
+    second: TileMap3_43
+  - first:
+      213: -7604034493514945068
+    second: TileMap3_44
+  - first:
+      213: -4300525305584414411
+    second: TileMap3_45
+  - first:
+      213: 7644435994997128732
+    second: TileMap3_46
+  - first:
+      213: -54759527461492802
+    second: TileMap3_47
+  - first:
+      213: 7336525845539454816
+    second: TileMap3_48
+  - first:
+      213: -4152976721750420659
+    second: TileMap3_49
+  - first:
+      213: -1461810396154251375
+    second: TileMap3_50
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PortalBase
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7665af88aff8ce0800000000000000
+      internalID: -1400625492866471944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap3_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7816c98ad4cc7f3a0800000000000000
+      internalID: -6631607292366397049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap3_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc16c3ead3c8ea530800000000000000
+      internalID: 3868183326501921228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be49a8454f50dc230800000000000000
+      internalID: 3660588619070608619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LSideTile
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0148b7b852258b00800000000000000
+      internalID: 830107470754496782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSideTile
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018784da4e39f39d0800000000000000
+      internalID: -2792350633577383920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSideTile1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cab684820b21cd0800000000000000
+      internalID: -2588813148724417388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSideTile2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20302c39f5ba35350800000000000000
+      internalID: 6004331155204211458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeIron
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cae53cdb18c09030800000000000000
+      internalID: 3499516932451068609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeWood
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f907f53113e5c840800000000000000
+      internalID: 5243847004202142195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc3b51b1b8dd3d30800000000000000
+      internalID: 4412921467589311696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce2652fde2b40210800000000000000
+      internalID: 1298359327632273088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap3_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fef2858f21153e80800000000000000
+      internalID: -8199628650757030151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
