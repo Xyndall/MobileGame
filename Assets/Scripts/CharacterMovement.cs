@@ -6,7 +6,11 @@ public class CharacterMovement : MonoBehaviour
 {
 
     private Rigidbody2D _rb;
+    private Animator _animator;
+
     [SerializeField] private LayerMask _groundLayer;
+    
+
 
     [Header("Movement Variables")]
     [SerializeField] private float _movementAccelertaion;
@@ -41,6 +45,7 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     private Vector2 GetInput()
@@ -81,7 +86,11 @@ public class CharacterMovement : MonoBehaviour
     {
         _horizontalDirection = GetInput().x;
         if (_canJump) Jump();
-        
+
+
+        //Animation
+        _animator.SetBool("IsGrounded", _onGround);
+        _animator.SetFloat("HorizontalDirection", Mathf.Abs(_horizontalDirection));
     }
 
     void Flip()

@@ -7,22 +7,22 @@ TextureImporter:
     second: asdw_0
   - first:
       213: -6505356846434281047
-    second: asdw_1
+    second: idle_1
   - first:
       213: 1587855033701488029
-    second: asdw_2
+    second: idle_2
   - first:
       213: -8788388880446925418
-    second: asdw_3
+    second: idle_3
   - first:
       213: -8798082135639141969
-    second: asdw_4
+    second: idle_4
   - first:
       213: -8688835730131055049
-    second: asdw_5
+    second: idle_5
   - first:
       213: -291121746275968097
-    second: asdw_6
+    second: idle_6
   - first:
       213: 7934420284606964765
     second: asdw_7
@@ -34,22 +34,22 @@ TextureImporter:
     second: asdw_9
   - first:
       213: 8322875229364272760
-    second: walk1
+    second: run_1
   - first:
       213: -2621007037846206427
-    second: walk2
+    second: run_2
   - first:
       213: -5439587064398936781
-    second: walk3
+    second: run_3
   - first:
       213: -7229081831746822647
-    second: walk4
+    second: run_4
   - first:
       213: 8596419814479922657
-    second: walk5
+    second: run_5
   - first:
       213: 1633462501941906884
-    second: walk6
+    second: run_6
   - first:
       213: -8677992710744166171
     second: asdw_16
@@ -509,6 +509,9 @@ TextureImporter:
   - first:
       213: -137023460152117329
     second: asdw_168
+  - first:
+      213: -4886473522248733134
+    second: asdw_169
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -617,13 +620,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asdw_1
+      name: idle_1
       rect:
         serializedVersion: 2
         x: 79
         y: 912
         width: 57
-        height: 91
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,12 +641,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asdw_2
+      name: idle_2
       rect:
         serializedVersion: 2
-        x: 141
-        y: 912
-        width: 47
+        x: 138
+        y: 911
+        width: 57
         height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -659,13 +662,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asdw_3
+      name: idle_3
       rect:
         serializedVersion: 2
         x: 192
         y: 914
-        width: 47
-        height: 91
+        width: 57
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,13 +683,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asdw_4
+      name: idle_4
       rect:
         serializedVersion: 2
-        x: 244
-        y: 912
-        width: 52
-        height: 91
+        x: 243
+        y: 911
+        width: 57
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,13 +704,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asdw_5
+      name: idle_5
       rect:
         serializedVersion: 2
         x: 303
         y: 915
-        width: 45
-        height: 89
+        width: 57
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,13 +725,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asdw_6
+      name: idle_6
       rect:
         serializedVersion: 2
         x: 354
         y: 915
-        width: 51
-        height: 90
+        width: 57
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -806,7 +809,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk1
+      name: run_1
       rect:
         serializedVersion: 2
         x: 11
@@ -827,13 +830,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk2
+      name: run_2
       rect:
         serializedVersion: 2
-        x: 90
+        x: 82
         y: 808
-        width: 60
-        height: 86
+        width: 70
+        height: 90
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -848,13 +851,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk3
+      name: run_3
       rect:
         serializedVersion: 2
-        x: 156
-        y: 806
-        width: 55
-        height: 92
+        x: 145
+        y: 808
+        width: 70
+        height: 90
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -869,12 +872,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk4
+      name: run_4
       rect:
         serializedVersion: 2
-        x: 215
-        y: 807
-        width: 60
+        x: 212
+        y: 808
+        width: 70
         height: 90
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -890,12 +893,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk5
+      name: run_5
       rect:
         serializedVersion: 2
-        x: 282
-        y: 804
-        width: 53
+        x: 272
+        y: 802
+        width: 70
         height: 90
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -911,12 +914,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk6
+      name: run_6
       rect:
         serializedVersion: 2
-        x: 342
+        x: 339
         y: 805
-        width: 58
+        width: 70
         height: 90
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
