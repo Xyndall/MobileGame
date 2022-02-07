@@ -63,6 +63,10 @@ public class CharacterMovement : MonoBehaviour
             _extraJumpsValue = _extraJumps;
             ApplyGroundLinearDrag();
             _hangTimeCounter = _hangTime;
+
+            //animation
+            _animator.SetBool("IsJumping", false);
+            _animator.SetBool("IsFalling", false);
         }
         else
         {
@@ -72,14 +76,6 @@ public class CharacterMovement : MonoBehaviour
         }
         if (_canCornerCorrect) CornerCorrect(_rb.velocity.y);
 
-        if (facingRight == false && _horizontalDirection > 0)
-        {
-            Flip();
-        }
-        else if (facingRight == true && _horizontalDirection < 0)
-        {
-            Flip();
-        }
     }
 
     void Update()
@@ -91,6 +87,20 @@ public class CharacterMovement : MonoBehaviour
         //Animation
         _animator.SetBool("IsGrounded", _onGround);
         _animator.SetFloat("HorizontalDirection", Mathf.Abs(_horizontalDirection));
+
+        if(_horizontalDirection < 0f && facingRight)
+        {
+            Flip();
+        }
+        if(_horizontalDirection > 0f && !facingRight)
+        {
+            Flip();
+        }
+        if(_rb.velocity.y < -0.1f)
+        {
+            _animator.SetBool("IsJumping", false);
+            _animator.SetBool("IsFalling", true);
+        }
     }
 
     void Flip()
@@ -135,6 +145,11 @@ public class CharacterMovement : MonoBehaviour
         _rb.velocity = new Vector2(_rb.velocity.x, 0f);
         _rb.AddForce(Vector2.up * _jumpForce, ForceMode2D.Impulse);
         _hangTimeCounter = 0f;
+
+        //animation
+        _animator.SetBool("IsJumping", true);
+        _animator.SetBool("IsFalling", false);
+
     }
 
     void CornerCorrect(float Yvelocity)
